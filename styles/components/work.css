@@ -114,7 +114,9 @@
         place-items: center;
         grid-template-areas: 
         'image1 content1'
-        'content2 image2';
+        'content2 image2'
+        'image3 content3'
+        'content4 image4';
     }
 
     .work__image1 {
@@ -125,12 +127,27 @@
         grid-area: image2;
     }
 
+    .work__image3 {
+        grid-area: image3;
+    }
+
+    .work__image4 {
+        grid-area: image4;
+    }
     .work__content1 {
         grid-area: content1;
     }
 
     .work__content2 {
         grid-area: content2;
+    }
+
+    .work__content3 {
+        grid-area: content3;
+    }
+
+    .work__content4 {
+        grid-area: content4;
     }
 
     .work__project {
